@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "ABCDEFGH",
+      "output": "Tinggi maksimum temp_stack: 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "HGFEDCBA",
+      "output": "Tinggi maksimum temp_stack: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "ABCDHGFE",
+      "output": "Tinggi maksimum temp_stack: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "EFGHABCD",
+      "output": "Tinggi maksimum temp_stack: 4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "EFGHDCBA",
+      "output": "Tinggi maksimum temp_stack: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "DCBAEFHG",
+      "output": "Tinggi maksimum temp_stack: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "AHBGCFDE",
+      "output": "Tinggi maksimum temp_stack: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "EDFCGBHA",
+      "output": "Tinggi maksimum temp_stack: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "DECFBGAH",
+      "output": "Tinggi maksimum temp_stack: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "CGBAEFHD",
+      "output": "Tinggi maksimum temp_stack: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
